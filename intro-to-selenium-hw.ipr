@@ -11,7 +11,10 @@
       <entry name="!?*.groovy" />
       <entry name="!?*.java" />
     </wildcardResourcePatterns>
-    <bytecodeTargetLevel target="1.8" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="intro-to-selenium-hw.main" target="1.8" />
+      <module name="intro-to-selenium-hw.test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="CopyrightManager" default="" />
   <component name="DependencyValidationManager">
@@ -30,6 +33,7 @@
             <option value="$PROJECT_DIR$" />
           </set>
         </option>
+        <option name="useAutoImport" value="true" />
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
     </option>
@@ -311,6 +315,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-exec/1.3/efd2543e352e55ce5a685eed6db8af028b737905/commons-exec-1.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.assertj:assertj-core:3.15.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.15.0/b5b633545f357f576bd0661b302914a3951319d/assertj-core-3.15.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.15.0/cdbc8f9f767bfbce3dddd5f32852172f34a36718/assertj-core-3.15.0-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: org.checkerframework:checker-compat-qual:2.0.0">
